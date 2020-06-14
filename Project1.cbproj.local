@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.947,=D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.665,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\pomocna.h=D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.665,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\pomocna.cpp=D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Projekat.cpp=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.031,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Project1PCH1.h=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.651,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Project1.cbproj=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.619,=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Projekat.dfm=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.752,=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,D:\Stvari\Fax\Kompjuterska geometrija\Vjezbe\Projekat 1\Projekat.h=C:\Users\acer vx\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,49 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "pomocna.h"
+
+
+void Tacka::Crtaj(TImage *image) const {
+    image->Canvas->Ellipse(x-3,y-3,x+3,y+3);
+}
+
+bool operator<(Tacka A, Tacka B) {
+	if(A.x < B.x)
+	  return true;
+	if(A.x == B.x)
+	  return A.y < B.y;
+	return false;
+}
+
+bool operator==(Tacka A, Tacka B) {
+  return A.x == B.x && A.y == B.y;
+}
+
+bool operator==(Duz A, Duz B) {
+  return A.pocetna == B.pocetna && A.krajnja == B.krajnja;
+}
+
+int Orijentacija(Tacka A, Tacka B, Tacka C) {
+
+	int P = A.x * (B.y - C.y) + B.x * (C.y - A.y) + C.x * (A.y - B.y);
+	if(P > 0)
+	  return -1;
+	if(P < 0)
+	  return 1;
+	return 0;
+
+}
+
+void Duz::Crtaj(TImage *slika) const {
+	pocetna.Crtaj(slika);
+	krajnja.Crtaj(slika);
+	slika->Canvas->MoveTo(pocetna.x,pocetna.y);
+    slika->Canvas->LineTo(krajnja.x,krajnja.y);
+}
+
+
+
+#pragma package(smart_init)
+
